@@ -21,6 +21,9 @@ on:
         required: true
         default: 'digital-prison-service'
 
+permissions:
+  workflows: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
