@@ -22,7 +22,7 @@ on:
         default: 'digital-prison-service'
 
 permissions:
-  workflows: write
+  contents: write
 
 jobs:
   build:
